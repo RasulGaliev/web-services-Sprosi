@@ -1,8 +1,4 @@
-.intro {
-  width: 100%;
-  max-width: 1168px;
-  margin: 0 auto;
-}
+
 
 .intro_title {
   /*margin: 180px 0;*/
@@ -47,8 +43,3 @@ width: 529px;
   height: 391px;
 }
 
-.intro_inner   {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}

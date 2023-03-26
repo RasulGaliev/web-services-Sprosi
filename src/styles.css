@@ -17,3 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 *:after {
   box-sizing: border-box; /*??*/
 }
+
+.intro_inner   {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  max-width: 1168px;
+  margin: 0 auto;
+}
