@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Ankerman",
+    "estimation": 4.9,
+    "photo": "./assets/images/specialists/specialist1.png",
+    "reviewsCl":
+    {
+      "id": 1,
+      "text": "text",
+      "estimation": 0
+    },
+    "appointmentsCl":
+    {
+      "id": 1,
+      "date": "2023-03-29T21:06:27.000+00:00",
+      "status": true,
+      "psyId": 0
+    }
+  },
+  {
+    "id": 1,
+    "name": "Gabidullin",
+    "estimation": 4.8,
+    "photo": "./assets/images/specialists/specialist2.png",
+    "reviewsCl":
+    {
+      "id": 1,
+      "text": "text",
+      "estimation": 0
+    },
+    "appointmentsCl":
+    {
+      "id": 1,
+      "date": "2023-03-29T21:06:27.000+00:00",
+      "status": true,
+      "psyId": 0
+    }
+  },
+  {
+    "id": 1,
+    "name": "Admin",
+    "estimation": 4.8,
+    "photo": "./assets/images/specialists/specialist3.png",
+    "reviewsCl":
+    {
+      "id": 1,
+      "text": "text",
+      "estimation": 0
+    },
+    "appointmentsCl":
+    {
+      "id": 1,
+      "date": "2023-03-29T21:06:27.000+00:00",
+      "status": true,
+      "psyId": 0
+    }
+  }
+]

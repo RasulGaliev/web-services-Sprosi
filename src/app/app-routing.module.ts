@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HomeComponent} from "./home/home.component";
-import {ArticlesComponent} from "./articles/articles.component";
-import {SpecialistsComponent} from "./specialists/specialists.component";
-import {AboutComponent} from "./about/about.component";
-import {ContactsComponent} from "./contacts/contacts.component";
-import {LoginComponent} from "./login/login.component";
-import {AppointmentComponent} from "./appointment/appointment.component";
+import {HomeComponent} from "./components/home/home.component";
+import {ArticlesComponent} from "./components/articles/articles.component";
+import {SpecialistsComponent} from "./components/specialists/specialists.component";
+import {AboutComponent} from "./components/about/about.component";
+import {ContactsComponent} from "./components/contacts/contacts.component";
+import {LoginComponent} from "./components/login/login.component";
+import {AppointmentComponent} from "./components/appointment/appointment.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},

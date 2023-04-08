@@ -3,15 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactsComponent } from './contacts/contacts.component';
-import { LoginComponent } from './login/login.component';
-import { ArticlesComponent } from './articles/articles.component';
-import { AppointmentComponent } from './appointment/appointment.component';
-import { HeaderComponent } from './header/header.component';
-import { SpecialistsComponent } from './specialists/specialists.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
+import { LoginComponent } from './components/login/login.component';
+import { ArticlesComponent } from './components/articles/articles.component';
+import { AppointmentComponent } from './components/appointment/appointment.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SpecialistsComponent } from './components/specialists/specialists.component';
+import { FooterComponent } from './components/footer/footer.component';
+import {HttpClientModule} from "@angular/common/http";
+import { SpecialistComponent } from './components/specialist/specialist.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { FooterComponent } from './footer/footer.component';
     AppointmentComponent,
     HeaderComponent,
     SpecialistsComponent,
-    FooterComponent
+    FooterComponent,
+    SpecialistComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
